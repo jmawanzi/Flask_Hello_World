@@ -17,10 +17,13 @@ def MaPremiereAPI():
 def somme(valeur1,valeur2):
     return "<h2>La somme de votre valeur est : </h2>" + str(valeur1 + valeur2)
   
-if(valeur1,valeur2 == 0)
-printf("La valeur est pair);
-else
-       printf("La valeur est impaire")
-                                                                                                               
+if (nbr%2 == 0)
+{
+  alert("Nombre pair");
+}
+else {
+  alert("Nombre impair")
+}
+
 if __name__ == "__main__":
   app.run(debug=True)
