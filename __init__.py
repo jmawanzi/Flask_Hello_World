@@ -16,8 +16,9 @@ def MaPremiereAPI():
 @app.route('/somme/<int:valeur1>/<int:valeur2>')
 def somme(valeur1,valeur2):
     return "<h2>La somme de votre valeur est : </h2>" + str(valeur1 + valeur2)
-  
-if ($nombre%2 == 1)
-echo "$nombre est impair";
-else
-echo "$nombre est pair";
+
+n = int(input("Entrez un nombre: "))
+if (n % 2) == 0:
+   print("{0} est Paire".format(n))
+else:
+   print("{0} est Impaire".format(n))
