@@ -17,9 +17,9 @@ def MaPremiereAPI():
 def somme(valeur1,valeur2):
   return "<h2>La somme de votre valeur est : </h2>" + str(valeur1 + valeur2)
 
-valeur = int(input("Entrez un nombre entier : "))
+valeur1 = int(input("Entrez un nombre entier : "))
  
-if valeur % 2 == 0:
-    print(valeur, "est un nombre pair.")
+if valeur1 %2 == 0:
+    print(valeur1, "est un nombre pair.")
 else:
-    print(valeur, "est un nombre impair.")
+    print(valeur1, "est un nombre impair.")
