@@ -14,8 +14,8 @@ def MaPremiereAPI():
     return render_template('contact.html')
 
 @app.route('/somme/<int:valeur1>/<int:valeur2>')
-def somme(valeur):
-    return "<h2>La somme de votre valeur est : </h2>" + str(valeur1 , valeur2)
+def somme(valeur1,valeur2):
+    return "<h2>La somme de votre valeur est : </h2>" + str(valeur1 + valeur2)
                                                                                                                
 if __name__ == "__main__":
   app.run(debug=True)
