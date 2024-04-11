@@ -15,12 +15,11 @@ def MaPremiereAPI():
 
 @app.route('/somme/<int:valeur1>/<int:valeur2>')
 def somme(valeur1,valeur2):
-  
-  nombre = int(input("Entrez un nombre entier : "))
-  
-  if nombre % 2 == 0:
-    print(nombre, "est un nombre pair.")
-  else:
-    print(nombre, "est un nombre impair.")
+  return "<h2>La somme de votre valeur est : </h2>" + str(valeur1 + valeur2)
 
-return "<h2>La somme de votre valeur est : </h2>" + str(valeur1 + valeur2)
+valeur = int(input("Entrez un nombre entier : "))
+ 
+if valeur % 2 == 0:
+    print(valeur, "est un nombre pair.")
+else:
+    print(valeur, "est un nombre impair.")
