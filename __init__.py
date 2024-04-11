@@ -19,7 +19,8 @@ def somme(valeur1,valeur2):
 
 valeur1 = int(input("Entrez un nombre entier : "))
  
-if valeur1 %2 == 0:
-    print(valeur1, "est un nombre pair.")
-else:
-    print(valeur1, "est un nombre impair.")
+int n = sc.nextInt();
+if (N%2==0)
+   System.out.println(n+" est pair");
+else
+   System.out.println(n+" est impair");
